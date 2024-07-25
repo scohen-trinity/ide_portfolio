@@ -1,0 +1,9 @@
+.typing-animation {
+    font-family: monospace;
+    display: inline-flex;
+  }
+  
+  .typing-text {
+    display: inline-block;
+  }
+  
