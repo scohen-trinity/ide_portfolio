@@ -1,11 +1,13 @@
+import './About.css'
+
 function About() {
     return (
         <section id='about'>
-          <div>
+          <div className="about-container">
             <h5>About me</h5>
             <h1 className='silver-text'>Let me introduce myself</h1>
-            <div className='about-me-paragraph'>
-              {/* <img src={`${process.env.PUBLIC_URL}/Headshot.jpg`} alt='headshot' className='headshot'></img> */}
+            <div className='about-me-container'>
+              <img src={`headshot.png`} alt='headshot' className='headshot'></img>
               <p className='about-me-paragraph'>
                 I am a passionate and driven Computer Science student at Trinity University minoring in Data Science seeking software engineering roles.
                 My primary interests are IoT technology, Cloud Computing, Web Development, and App Development.

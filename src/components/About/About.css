@@ -1,0 +1,20 @@
+.about-container {
+    padding: 3rem;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-me-paragraph {
+    padding: 1rem;
+}
+
+.headshot {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #373737;
+}

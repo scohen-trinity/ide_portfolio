@@ -6,8 +6,10 @@
 }
 
 .content-container {
+  left: 50px;
   width: 100%;
   display: flex;
+  position: relative;
   flex-direction: column;
 }
 

@@ -1,9 +1,9 @@
 import { useState } from "react"
 import './Sidebar.css'
 
-function scrollToSection(sectionId) {
+function scrollToSection(sectionId: string) {
     const section = document.getElementById(sectionId);
-    section.scrollIntoView({ behavior: 'smooth'});
+    section!.scrollIntoView({ behavior: 'smooth'});
 }
 
 function SideBar() {

@@ -1,3 +1,4 @@
+import ContactBar from '../Shared/ContactBar/ContactBar';
 import './Contact.css'
 
 function Contact() {
@@ -7,6 +8,7 @@ function Contact() {
             <h5 className='Rusty-text'>
               Contact
             </h5>
+            <ContactBar />
           </div>
         </section>
     );

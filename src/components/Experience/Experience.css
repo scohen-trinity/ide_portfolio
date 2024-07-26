@@ -1,0 +1,45 @@
+.experience-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 300px;
+}
+
+.job-title {
+    width: 20%;
+    padding-left: 5ch;
+}
+
+.job-icon {
+    padding: 0 5ch;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.job-icon::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 10em;
+    background-color: #333333;
+}
+
+.job-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.job-description {
+    width: 60%;
+}
