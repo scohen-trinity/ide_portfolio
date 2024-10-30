@@ -16,6 +16,7 @@ function SideBar() {
         { section: 'about', text: 'about_me', icon: 'fa-solid fa-address-card' },
         { section: 'experience', text: 'experience', icon: 'fa-solid fa-briefcase' },
         { section: 'projects', text: 'projects', icon: 'fa-solid fa-code' },
+        { section: 'achievements', text: 'achievements', icon: 'fa-solid fa-code' },
         { section: 'contact', text: 'contact_me', icon: 'fa-solid fa-address-book' },
     ];
 
