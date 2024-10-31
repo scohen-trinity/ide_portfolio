@@ -15,7 +15,9 @@ function Achievements() {
             <div className='achievements-list'>
                 {achievements_list.map(achievement => (
                     <div className='achievement-item'>
-                        <h3><a href={achievement.link}>{achievement.title}</a></h3>
+                        <h3>
+                            <a href={achievement.link}>{achievement.title}</a>
+                        </h3>
                         <img src = {achievement.img}></img>
                     </div>
                 ))}

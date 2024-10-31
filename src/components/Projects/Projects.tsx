@@ -17,7 +17,7 @@ function Projects() {
             {projects_list.map(project => (
               <div className='project-item'>
                 <a href = {project.link}>
-                <img alt = {project.alt} src = {project.img}></img>
+                  <img alt = {project.alt} src = {project.img}></img>
                 </a>
               </div>  
             ))}

@@ -1,15 +1,22 @@
 .projects-container {
-    display: flex;
     gap: 20px;
+    display: flex;
 }
 
 .project-item {
-    background-color: #ccc;
+    width: 150px;
+    height: 150px;
     padding: 5px;
+    display: flex;
     overflow: hidden;
+    align-items: center;
+    border-radius: 20%;
+    justify-content: center;
+    background-color: #ccc;
 }
 
 .project-item img {
-    height: 245px;
-    width: 245px;
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
 }
