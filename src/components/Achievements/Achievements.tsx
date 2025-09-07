@@ -14,7 +14,7 @@ function Achievements() {
             <h1 className='silver-text'>Here are some things I'm proud of</h1>
             <div className='achievements-list'>
                 {achievements_list.map(achievement => (
-                    <div className='achievement-item'>
+                    <div className='achievement-item' key={achievement.link}>
                         <h3>
                             <a href={achievement.link}>{achievement.title}</a>
                         </h3>

@@ -7,7 +7,7 @@ function scrollToSection(sectionId: string) {
 }
 
 function SideBar() {
-    // constant to check if the navbar is open
+    // hook to check if the sidebar is open
     const [isOpen, setOpen] = useState(false);
 
     // list of all sections in the website

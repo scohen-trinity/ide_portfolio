@@ -9,7 +9,7 @@ function About() {
             <div className='about-me-container'>
               <img src={`headshot.png`} alt='headshot' className='headshot'></img>
               <p className='about-me-paragraph'>
-                I am a passionate and driven Computer Science student at Trinity University minoring in Data Science seeking software engineering roles.
+                I am a passionate and driven Software Developer who is always looking to grow and learn new skills.
                 My primary interests are IoT technology, Cloud Computing, Web Development, and App Development.
                 I am an AWS Certified Developer Associate and have worked with AWS, Microsoft Azure, and Google Cloud.
                 I am an enthusiastic learner and am always looking for ways to grow my knowledge and if I seem like a good fit for a role please reach out to me!

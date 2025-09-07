@@ -1,0 +1,37 @@
+.project-container {
+    gap: 20px;
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-item {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.project-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.project-icon {
+    padding: 2rem;
+    font-size: 30px;
+}
+
+.project-description {
+    display: flex;
+    align-items: center;
+    max-width: 40rem;
+    justify-content: center;
+}
