@@ -2,7 +2,8 @@ import './Experience.css'
 
 function Experience() {
     const experience_list = [
-      { title: 'Junior Full Stack Software Engineer', tenure: 'Jan 2025 - Present', img: `econtrols.jpg`, company: 'Econtrols', description: 'In my current position as a Junior Full Stack Engineer I work with Angular, Typescript, HTML as my primary frontend technologies and C#, .NET, and Azure Cloud on the backend.'},
+      { title: 'SDE I - Frontend and Mobile', tenure: 'October 2025 - Present', img: `twitch.png`, company: 'Twitch', description: 'Working on the Community team at Twitch!'},
+      { title: 'Junior Full Stack Software Engineer', tenure: 'Jan 2025 - October 2025', img: `econtrols.jpg`, company: 'Econtrols', description: 'In my position as a Junior Full Stack Engineer I worked with Angular, Typescript, HTML as my primary frontend technologies and C#, .NET, and Azure Cloud on the backend.'},
       { title: 'IoT Full Stack Software Engineer Intern', tenure: 'May 2024 - August 2024', img: `econtrols.jpg`, company: 'Econtrols', description: 'Worked as a full stack developer on the IoT Software Team at Econtrols. I worked with Angular, Typescript, HTML, C#, and Azure Cloud.'},
       { title: 'ACM Tutor', tenure: 'September 2023 - May 2024', img: `acm.png`, company: 'Trinity University ACM', description: 'Worked as an ACM Tutor, helping students better learn and understand computer science. I helped students with Python, Java, Haskell, and Scala related issues.'},
       { title: 'Full Stack Software Engineer Intern', tenure: 'June 2023 - August 2023', img: `promptvideo.jpg`, company: 'PromptVideo', description: 'Worked as a full stack developer at PromptVideo, a B2B video startup company. I worked with a numbe of technologies including AWS, Python, Typescript, and HTML. I also earned two AWS certifications while at this internship.'},
