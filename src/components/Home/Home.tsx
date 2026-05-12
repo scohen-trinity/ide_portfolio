@@ -3,6 +3,8 @@ import TypingAnimation from '../Shared/TypingAnimation/TypingAnimation'
 import './Home.css'
 
 function Home() {
+    const titlesText: string = 'Software Engineer | Cloud Developer Associate | Rust Enthusiast';
+
     return(
         <section id='home'>
           <div className='home-container'>
@@ -13,7 +15,7 @@ function Home() {
             </div>
             <div className='titles-header'>
               <span>&lt;</span>
-              <TypingAnimation text='Software Engineer | Cloud Developer Associate | Data Analyst' delay={35} />
+              <TypingAnimation text={titlesText} delay={35} />
               <span>&gt;</span>
             </div>
             <ContactBar />
