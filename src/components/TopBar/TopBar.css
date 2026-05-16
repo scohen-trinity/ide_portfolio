@@ -1,3 +1,5 @@
+@import '../../colors.css';
+
 .arrows {
     color: #3c3c3c;
     font-size: 1.5rem;
@@ -19,7 +21,7 @@
     position: fixed;
     align-items: center;
     justify-content: center;
-    background-color: #202020;
+    background-color: var(--background-color);
 }
 
 .search-bar {

@@ -1,10 +1,12 @@
+@import './colors.css';
+
 body {
-    background-color: #202020;
-    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
     display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
     font-family: Consolas, 'Courier New', monospace;
-    color: #cecece;
+    margin: 0;
+    min-height: 100vh;
+    min-width: 320px;
+    place-items: center;
 }

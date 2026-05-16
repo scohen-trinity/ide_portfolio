@@ -1,3 +1,5 @@
+@import '../../../colors.css';
+
 .contact-bar {
     display: flex;
     flex-direction: row;
@@ -18,5 +20,5 @@
 }
 
 .contact-bar li a:hover {
-    color: aqua;
+    color: var(--link-color);
 }

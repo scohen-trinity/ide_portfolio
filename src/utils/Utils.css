@@ -1,0 +1,6 @@
+@import '../colors.css';
+
+.custom-link {
+    color: var(--link-color);
+    text-decoration: none;
+}
