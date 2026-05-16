@@ -1,3 +1,5 @@
+@import '../../colors.css';
+
 .arrow-down, .arrow-right {
     font-size: 20px;
 }
@@ -17,11 +19,11 @@
     margin-top: 2px;
     margin-left: 0.8rem;
     border-radius: 50%; 
-    background-color:#53956a; 
+    background-color:var(--green-1); 
 }
 
 .material-symbols-outlined {
-    color: #f0f5fd;
+    color: var(--white-2);
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -35,7 +37,7 @@
 }
 
 .section-header {
-    color: #53956a;
+    color: var(--green-1);
     display: flex;
     padding: 0.1rem 0.25rem;
     font-size: 0.75rem;
@@ -45,7 +47,7 @@
 
 .section-header:hover {
     cursor: pointer;
-    background-color: #373737;
+    background-color: var(--grey-1);
 }
 
 .section-item {
@@ -57,19 +59,19 @@
 
 .section-item:hover {
     cursor: pointer;
-    background-color: #37373e;
+    background-color: var(--grey-3);
 }
 
 .sidebar {
     top: 41px;
     left: 0;
     width: 60px;
-    color: white;
+    color: var(--white-1);
     height: 100%;
-    border: 1px solid #313131;
+    border: 1px solid var(--grey-4);
     z-index: 1000;    
     position: fixed;
-    background-color: #1d1d1d;
+    background-color: var(--grey-5);
 }
 
 .sidebar-expanded {
@@ -77,13 +79,13 @@
     left: -120px;
     width: 180px;
     height: 100%;
-    border: 1px solid #313131;
+    border: 1px solid var(--grey-4);
     display: flex;
     z-index: 999;
     position: fixed;
     transition: left 0.3s ease;
     flex-direction: column;
-    background-color: #181818;
+    background-color: var(--grey-6);
 
 }
 

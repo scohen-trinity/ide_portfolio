@@ -1,3 +1,5 @@
+@import '../../colors.css';
+
 .home-container {
     display: flex;
     gap: 1rem;
@@ -7,7 +9,7 @@
 }
 
 .name-header {
-    color: #ca7ebc;
+    color: var(--pink-1);
     padding: 1rem;
     font-size: 5rem;
 }

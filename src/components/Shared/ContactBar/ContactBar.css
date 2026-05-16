@@ -16,7 +16,7 @@
 }
 
 .contact-bar li a {
-    color: #fff;
+    color: var(--white-1);
 }
 
 .contact-bar li a:hover {

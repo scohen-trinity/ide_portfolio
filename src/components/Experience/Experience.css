@@ -1,3 +1,5 @@
+@import '../../colors.css';
+
 .experience-list {
     display: flex;
     flex-direction: column;
@@ -30,7 +32,7 @@
     left: 50%;
     width: 1px;
     height: 10em;
-    background-color: #333333;
+    background-color: var(--grey-2);
 }
 
 .job-image {

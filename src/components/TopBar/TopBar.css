@@ -1,13 +1,13 @@
 @import '../../colors.css';
 
 .arrows {
-    color: #3c3c3c;
+    color: var(--grey-7);
     font-size: 1.5rem;
     padding-right: 0.5rem;
 }
 
 .arrows:hover {
-    background-color: #4b4b4b;
+    background-color: var(--grey-8);
 }
 
 .top-bar {
@@ -15,7 +15,7 @@
     left: 0;
     width: 100%;
     height: 40px;
-    border: 1px solid #313131;
+    border: 1px solid var(--grey-4);
     display: flex;
     z-index: 9999;
     position: fixed;
@@ -28,11 +28,11 @@
     width: 30%;
     height: 70%;
     display: flex;
-    border: 1px solid #4b4b4b;
+    border: 1px solid var(--grey-9);
     align-items: center;
     border-radius: 0.5rem;
     justify-content: center;
-    background-color: #2b2b2b;
+    background-color: var(--grey-10);
 }
 
 .search-bar-text {
