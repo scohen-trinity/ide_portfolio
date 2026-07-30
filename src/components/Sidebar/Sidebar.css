@@ -59,7 +59,7 @@
 
 .section-item:hover {
     cursor: pointer;
-    background-color: var(--grey-3);
+    background-color: var(--grey-1);
 }
 
 .sidebar {

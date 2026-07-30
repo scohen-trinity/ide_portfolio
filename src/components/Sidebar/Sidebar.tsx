@@ -20,6 +20,8 @@ function SideBar() {
         { section: 'contact', text: 'contact_me', icon: 'fa-solid fa-address-book' },
     ];
 
+    // const portfolio_ide_title = "sams_portfolio_ide"
+
     // function to toggle the sidebar shown/hidden
     const toggleSidebar = () => {
         setOpen(!isOpen);
