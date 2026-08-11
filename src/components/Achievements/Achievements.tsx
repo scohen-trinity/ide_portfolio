@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Achievements.css'
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface Achievement {
     id: number,
@@ -36,9 +37,9 @@ function Achievements() {
                     <a href={currentAchievement.link}><img src={currentAchievement.image} alt='something went wrong'></img></a>
                 </div>
                 <div className='scroll-container'>
-                    <span onClick={() => moveAchievement(false)} className='material-symbols-outlined'>chevron_left</span>
+                    <ChevronLeft onClick={() => moveAchievement(false)} />
                     <span>{currentAchievement.id + 1} / { achievements_list.length }</span>
-                    <span onClick={() => moveAchievement(true)} className='material-symbols-outlined'>chevron_right</span>
+                    <ChevronRight onClick={() => moveAchievement(true)} />
                 </div>
             </div>
         </section>

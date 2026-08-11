@@ -44,10 +44,3 @@
 .search-icon {
     font-size: 1.25rem;
 }
-
-.splitscreens {
-    gap: 0.5rem;
-    right: 2rem;
-    display: flex;
-    position: fixed;
-}
